@@ -1,0 +1,280 @@
+html {
+    box-sizing: border-box;
+}
+#body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    transition: opacity 2s;
+}
+#site-navbar {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index:1;
+    background-color: 	#101010;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-elements {
+    float: right;
+}
+
+.nav-elements a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding : 14px 16px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: 'Freckle Face', cursive;
+    font-weight: bold;
+    font-size: 17px;
+}
+.logo{
+    padding-left: 14px ;
+    margin-left: 20px;
+    display: block;
+    font-family:  'Freckle Face', cursive;
+    float: left;
+    font-weight: bolder ;
+    font-size: 28px;
+    text-align: center;
+    color: maroon;
+
+}
+.nav-elements a:hover {
+    color: maroon;
+}
+.home-content{
+
+
+
+    display: inline-block;
+    width: 100%;
+
+
+
+}
+#ATF{
+    margin-top: 100px
+}
+.home-content h1{
+    font-family: 'Caveat', cursive;
+    padding-left: 60px;
+    font-size: 40px;
+
+}
+.carousal-big{
+    height: 300px;
+    padding: 0;
+    width: 70%;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+.carousal-big img{
+    height: 100%;
+    border:  #cccccc solid 1px;
+    width: 100%;
+}
+.carousal-small{
+    height: 300px;
+    margin: 0;
+    position: relative;
+    width: 30%;
+    float: left;
+
+}
+.carousal-small img{
+    height: 100%;
+    width: 100%;
+    border:  #cccccc solid 1px;
+}
+.caption-big{
+    position: absolute;
+
+    top: 200px;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0.7;
+
+}
+.caption-small{
+    position: absolute;
+    top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0.7;
+}
+.caption-small p{
+    font-weight: bolder;
+}
+.caption-big p{
+    font-weight: bolder;
+}
+.site-footer
+{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+.fa-facebook {
+    background: #26272b;
+    color: white;
+}
+
+.fa-twitter {
+    background: #26272b;
+    color: white;
+}
+
+.fa-google {
+    background: #26272b;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #26272b;
+    color: white;
+}
+
+.fa-youtube {
+    background: #26272b;
+    color: white;
+}
+
+.fa-instagram {
+    background: #26272b;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+#footer-about{
+    width: 40%;
+    margin-left: 200px;
+    margin-right: 50px;
+    float: left;
+}
+#footer-contact{
+    width: 40%;
+    float: left;
+}
+#footer-content{
+    width: 85%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.active{
+    color: maroon;
+}
+#site-latest-news{
+    width: 80%;
+    margin: 0 auto;
+}
+#site-latest-news h1{
+    text-align: center ;
+    color: darkred;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: whitesmoke;
+}
+.news{
+
+    width: 49%;
+    float: left;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+
+}
+.news img{
+    float: left;
+    height: 170px ;width: 192px;
+    border-radius: 2px;
+}
+.caption{
+
+    padding-left: 10px;
+}
+
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: maroon;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.gaming-news{
+
+    width: 99%;
+    float: left;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+}
+.news img{
+    float: left;
+    height: 170px ;width: 192px;
+    border-radius: 2px;
+}
+.date h2{
+    color: red;
+}
+.date{
+    width: 120px;
+}
+.news a{
+
+    display: flex;text-decoration: none ;
+    color: #26272b ;
+
+}
